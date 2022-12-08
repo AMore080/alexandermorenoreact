@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alexandermorenoreact/static/css/main.3c84185f.css",
+    "main.js": "/alexandermorenoreact/static/js/main.8267249d.js",
+    "static/js/787.afbd6474.chunk.js": "/alexandermorenoreact/static/js/787.afbd6474.chunk.js",
+    "index.html": "/alexandermorenoreact/index.html",
+    "main.3c84185f.css.map": "/alexandermorenoreact/static/css/main.3c84185f.css.map",
+    "main.8267249d.js.map": "/alexandermorenoreact/static/js/main.8267249d.js.map",
+    "787.afbd6474.chunk.js.map": "/alexandermorenoreact/static/js/787.afbd6474.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c84185f.css",
+    "static/js/main.8267249d.js"
+  ]
+}
