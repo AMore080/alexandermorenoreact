@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Avatar } from "@nextui-org/react";
+import { Grid } from "@nextui-org/react";
 
 class Footer extends React.Component {
     render() {
