@@ -4,10 +4,10 @@ class Projects extends React.Component{
     render(){
         return (
             <div>
-                <section class="my-20">
-                    <h2 class="text-5xl text-white p-8 border-solid border-4 border-slate-50 font-bold mx-1 shadow-2xl  bg-blue-400"
+                <section class="my-10">
+                    <h2 class="text-5xl text-white p-4 border-solid border-4 border-slate-50 font-bold mx-1 shadow-2xl  bg-blue-400"
                         id="container2">Projects</h2>
-                    <div class="grid grid-cols-10 grid-rows-2 h-96 w-full m-3 gap-5 my-20 ">
+                    <div class="grid grid-cols-10 grid-rows-2 h-96 m-3 gap-5 my-20 ">
                         <a href="https://codemovie.herokuapp.com/" class="row-span-2 col-span-3 col-start-2 text-3xl border-2 border-slate-50 shadow-xl
                         font-bold bg-cover text-white bg-[url('https://res.cloudinary.com/davvalvhs/image/upload/v1671583717/clapperboard-blue-neon-icon-simple-thin-line-outline-vector-cinema-icons-ui-ux-website-mobile-application-dark-164875409_glhqbo.jpg')]"
                             >

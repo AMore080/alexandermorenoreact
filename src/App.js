@@ -4,6 +4,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
@@ -11,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col h-screen justify-between">
       <Router>
         <Header />
         <Routes>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contactme" element={<Contact />}/>
           <Route path="/projects" element={<Projects />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
