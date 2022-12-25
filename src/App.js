@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="flex flex-col h-screen justify-between">
+    <div className="flex flex-col h-screen justify-between bg-deepGray">
       <Router>
         <Header />
         <Routes>
