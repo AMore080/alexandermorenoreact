@@ -1,9 +1,24 @@
 import React from "react";
+import { motion } from 'framer-motion';
 
 class About extends React.Component{
     render() {
         return (
-            <div>
+            <motion.div
+            initial={{opacity: 0, scale: 0.1}}
+            animate={{opacity: 1, scale: 1}}
+            transition={{
+                default: {
+                    duration: 0.5,
+                    ease: [0, .5, .2 , 1.01]
+                },
+            scale: {
+                damping: 5,
+                stiffness: 100,
+                restDelta: 0.001
+            }
+            }}
+            >
                 <section class=" bg-coralBlue my-10 shadow-2xl flex-col mx-auto w-full md:w-3/4 rounded-lg">
                     <h2 class="lg:text-5xl p-4 font-bold mx-1 shadow-3xl z-20 text-silverGray flex-1">About Me</h2>
                         <div class="md:grid flex-row bg-greenSea items-center rounded-b-lg">
@@ -20,7 +35,7 @@ class About extends React.Component{
                                 </h1>
                         </div>
                 </section>
-            </div>
+            </motion.div>
         )
     }
 }
