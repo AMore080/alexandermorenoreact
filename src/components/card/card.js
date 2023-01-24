@@ -3,7 +3,7 @@ import './flipTransition.css';
 
 function Card({onClick}) {
     return (
-        <div className='card' onClick={onClick}>
+        <div className='card' onMouseEnter={onClick} onMouseLeave={onClick}>
             <div className='card-back'>Back</div>
             <div className='card-front'>Front</div>
         </div>
