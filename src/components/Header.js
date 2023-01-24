@@ -5,7 +5,7 @@ class Header extends React.Component {
     render() {
         return (
             <div>
-                <nav class="w-full flex flex-row bg-coralBlue h-20 items-center sticky top-0 shadow-xl lg:text-3xl sm:text-xs z-20">
+                <nav class="w-full flex flex-row bg-coralBlue h-20 items-center shadow-xl lg:text-3xl sm:text-xs">
                     <ul className="absolute mx-10 decoration-4 text-silverGray"><a href="/">Alex</a></ul>
                     <ul class="w-full flex flex-row font-bold text-white justify-center">
                         <motion.li 

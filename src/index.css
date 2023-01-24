@@ -17,3 +17,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary: #FFCE00;
+  --secondary: #FE4880
+  --dark: #212121;
+  --light: #f3f3f3;
+}
+
+.card_inner {
+  width: 100%;
+  height: 100%;
+  transform: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
