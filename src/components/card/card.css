@@ -27,10 +27,10 @@
 }
 
 .card-front {
-    background: wheat;
 }
 
 .card-back {
-    background-color: aqua;
+    background-color: #a2aebb;
     transform: rotateY(180deg);
+    justify-content: flex-start;
 }

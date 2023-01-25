@@ -25,12 +25,35 @@ class Projects extends React.Component{
                 <h2 class="lg:text-5xl p-2 font-bold mx-1 shadow-3xl z-20 text-silverGray flex-1">Projects</h2>
                     <div class="flex-row bg-greenSea rounded-b-lg
                     grid lg:grid-cols-3 grid-cols-1 grid-rows-6 md:grid-rows-2 gap-2 my-5 p-5">
-                        <FlippableCard />
+                        <FlippableCard 
+                        backgroundImage={'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'}
+                        projectTitle={"CodeMovie!"}
+                        />
+                        <FlippableCard 
+                        backgroundImage={'https://images.unsplash.com/photo-1613771404721-1f92d799e49f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80'}
+                        projectTitle={"Pokedex"}
+                        />
+                        <FlippableCard 
+                        backgroundImage={'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'}
+                        projectTitle={"Team Profile Generator"}
+                        />
+                        <FlippableCard 
+                        backgroundImage={'https://images.unsplash.com/photo-1631010231931-d2c396b444ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'}
+                        projectTitle={"E-Commerce Backend"}
+                        />
+                        <FlippableCard 
+                        backgroundImage={'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80'}
+                        projectTitle={"Tech Blog"}
+                        />
+                        <FlippableCard 
+                        backgroundImage={'https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80'}
+                        projectTitle={"Weather App"}
+                        />
+                        {/* <FlippableCard/>
                         <FlippableCard/>
                         <FlippableCard/>
                         <FlippableCard/>
-                        <FlippableCard/>
-                        <FlippableCard/>
+                        <FlippableCard/> */}
                         {/* <div class="card col-span-3 col-start-auto text-3xl border-2 border-slate-50 shadow-xl
                             font-bold bg-cover text-white bg-[url('https://res.cloudinary.com/davvalvhs/image/upload/v1671583717/clapperboard-blue-neon-icon-simple-thin-line-outline-vector-cinema-icons-ui-ux-website-mobile-application-dark-164875409_glhqbo.jpg')]">
                            <div class="card__inner">
