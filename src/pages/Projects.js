@@ -28,26 +28,49 @@ class Projects extends React.Component{
                         <FlippableCard 
                         backgroundImage={'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'}
                         projectTitle={"CodeMovie!"}
+                        description={
+                            "CodeMovie! is a website where users can go to find their favorite movies. Once logged in, they can search by title for a movie or do a random discover; and then add it to their rental cart or watchlist. Most notable tech being Webpack, Babel, GraphQL, & JWT"
+                        }
+                        liveDemoLink={"https://codemovie.herokuapp.com/"}
+                        gitHubLink={"https://github.com/AMore080/ecommerce"}
                         />
                         <FlippableCard 
                         backgroundImage={'https://images.unsplash.com/photo-1613771404721-1f92d799e49f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80'}
                         projectTitle={"Pokedex"}
+                        description={"React application using PokeAPI, GraphQL/ApolloQL, & MongoDB."}
+                        liveDemoLink={"https://pokedexspin.herokuapp.com/"}
+                        gitHubLink={"https://github.com/AMore080/Pokedex"}
                         />
                         <FlippableCard 
                         backgroundImage={'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'}
                         projectTitle={"Team Profile Generator"}
+                        description={`
+                        A team profile builder that takes in information about teammates based on user-input and generates an HTML page displaying the info.
+                        Makes use of JEST for tests and Inquirer for command line entries`
+                        }
+                        liveDemoLink={"https://github.com/AMore080/TeamProfileGenerator"}
+                        gitHubLink={"https://github.com/AMore080/TeamProfileGenerator"}
                         />
                         <FlippableCard 
                         backgroundImage={'https://images.unsplash.com/photo-1631010231931-d2c396b444ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'}
                         projectTitle={"E-Commerce Backend"}
+                        description={"An E-Commerce Backend proof of concept displaying a database using MySql to complete Create, Read, Update, and Delete routes. Recommend using Insomnia to view functionality"}
+                        liveDemoLink={"https://github.com/AMore080/E-Commerce-Backend"}
+                        gitHubLink={"https://github.com/AMore080/E-Commerce-Backend"}
                         />
                         <FlippableCard 
                         backgroundImage={'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80'}
                         projectTitle={"Tech Blog"}
+                        description={"A tech blog website where a user can post their thoughts on current technology. Uses MySQL and follows the MVC framework with Handlebars"}
+                        liveDemoLink={"https://techblog12121.herokuapp.com/"}
+                        gitHubLink={"https://github.com/AMore080/TechBlogger"}
                         />
                         <FlippableCard 
                         backgroundImage={'https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80'}
                         projectTitle={"Weather App"}
+                        description={"An application using the \"OpenWeather One Call\" API. Input a city and check your weather based on the input. Uses Bootstrap for UI"}
+                        liveDemoLink={"https://amore080.github.io/WeatherDash/"}
+                        gitHubLink={"https://github.com/AMore080/WeatherDash"}
                         />
                         {/* <FlippableCard/>
                         <FlippableCard/>

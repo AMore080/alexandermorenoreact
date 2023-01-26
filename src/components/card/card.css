@@ -32,5 +32,5 @@
 .card-back {
     background-color: #a2aebb;
     transform: rotateY(180deg);
-    justify-content: flex-start;
+    padding: 3rem;
 }

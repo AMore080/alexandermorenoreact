@@ -4,10 +4,8 @@ import { CSSTransition } from 'react-transition-group';
 import { useState } from 'react';
 import '../index.css'
 
-function FlippableCard({backgroundImage, projectTitle}) {
+function FlippableCard({backgroundImage, projectTitle, liveDemoLink, gitHubLink, description}) {
     const [showFront, setShowFront] = useState(true);
-    // const background
-    console.log(backgroundImage)
 
     return (
         <div className="flippable-card-container">
@@ -18,7 +16,8 @@ function FlippableCard({backgroundImage, projectTitle}) {
             >
                 <Card onClick={() => {
                     setShowFront((v) => !v);
-                }} backgroundImage={backgroundImage} projectTitle={projectTitle} />
+                }} backgroundImage={backgroundImage} projectTitle={projectTitle} description={description} 
+                liveDemoLink={liveDemoLink} gitHubLink={gitHubLink}/>
             </CSSTransition>
         </div>
     )
