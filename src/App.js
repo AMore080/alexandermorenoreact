@@ -2,6 +2,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import ThankYou from "./pages/ThankYou";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/aboutme" element={<About />}/>
           <Route path="/contactme" element={<Contact />}/>
           <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/thanks" element={<ThankYou />}></Route>
         </Routes>
         <Footer />
       </Router>
