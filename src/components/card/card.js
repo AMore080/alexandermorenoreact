@@ -23,7 +23,9 @@ function Card({onClick, backgroundImage, projectTitle, liveDemoLink, gitHubLink,
             </div>
             <div className={`text-3xl font-bold bg-cover
              text-white card-front`} style={{backgroundImage: `url(${backgroundImage})`}}>
-                    {projectTitle}
+                <text class="bg-silverGray p-3 rounded-md text-deepSeaBlack">
+                 {projectTitle}
+                </text>
             </div>
         </div>
     )

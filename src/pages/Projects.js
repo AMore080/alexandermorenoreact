@@ -21,7 +21,7 @@ class Projects extends React.Component{
             }
             }}
             >
-                <section class=" bg-coralBlue my-10 shadow-2xl flex-col mx-auto w-full md:w-3/4 rounded-lg">
+                <section class=" bg-deepSeaBlack my-10 shadow-2xl flex-col mx-auto w-full md:w-3/4 rounded-lg">
                 <h2 class="lg:text-5xl p-2 font-bold mx-1 shadow-3xl z-20 text-silverGray flex-1">Projects</h2>
                     <div class="flex-row bg-greenSea rounded-b-lg
                     grid lg:grid-cols-3 grid-cols-1 grid-rows-6 md:grid-rows-2 gap-2 my-5 p-5">

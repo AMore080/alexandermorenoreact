@@ -19,7 +19,7 @@ class Contact extends React.Component{
             }
             }}
             >
-                <section class="bg-coralBlue my-10 shadow-2xl flex-col mx-auto w-full md:w-1/2 rounded-lg">
+                <section class="bg-deepSeaBlack my-10 shadow-2xl flex-col mx-auto w-full md:w-1/2 rounded-lg">
                     <h2 class="lg:text-5xl p-4 font-bold mx-1 shadow-3xl z-20 text-silverGray flex-1">Contact Me</h2>
                         <div class="flex flex-col bg-greenSea justify-center p-10">
                             <form action="https://formsubmit.co/alexmore080@gmail.com" method="POST">

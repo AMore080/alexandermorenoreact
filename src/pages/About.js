@@ -20,7 +20,7 @@ class About extends React.Component{
             }
             }}
             >
-                <section class=" bg-coralBlue my-10 shadow-2xl flex-col mx-auto w-full md:w-3/4 rounded-lg">
+                <section class=" bg-deepSeaBlack my-10 shadow-2xl flex-col mx-auto w-full md:w-3/4 rounded-lg">
                     <h2 class="lg:text-5xl p-4 font-bold mx-1 shadow-3xl z-20 text-silverGray flex-1">About Me</h2>
                         <div class="sm:grid flex-row bg-greenSea items-center rounded-b-lg">
                             <img src="https://res.cloudinary.com/davvalvhs/image/upload/v1671587308/image0_4_fps5u2.jpg" alt="a picture of me" class="scale-75 rounded-md z-0 col-span-auto float-left" />
