@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from 'framer-motion';
+import resume from '../Resume/resumeAlexM.pdf';
 
 class Header extends React.Component {
     render() {
@@ -21,6 +22,10 @@ class Header extends React.Component {
                         whileHover={{scale: 1.1}}
                         transition={{type: 'spring', stiffness: 100, damping: 5}}
                         class="mx-4 lg:mx-8 underline decoration-4 underline-offset-8 text-silverGray"><a href="/contactme">Contact Me</a></motion.li>
+                        <motion.li 
+                        whileHover={{scale: 1.1}}
+                        transition={{type: 'spring', stiffness: 100, damping: 5}}
+                        class="mx-4 lg:mx-8 underline decoration-4 underline-offset-8 text-silverGray"><a href={resume} download={resume}>Resume</a></motion.li>
                     </ul>
                 </nav>
             </div>

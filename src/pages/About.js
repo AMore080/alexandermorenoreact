@@ -30,7 +30,9 @@ class About extends React.Component{
                                 student in the Lonestar College system majoring in Computer Science. I plan to continue expanding my skillset and work with a team that I can grow with.
                                 <br />
                                 <br />
-                                When I am not coding, I am usually catching up on my favorite games and tv shows! I also love to travel and try new foods. 
+                                When I am not coding, I am usually catching up on my favorite games and tv shows! I also love to travel and try new foods.
+                                <br />
+                                Check out my Resume for more about my professional experience!
                                 </h1>
                         </div>
                 </section>
