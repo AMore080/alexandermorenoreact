@@ -5,7 +5,7 @@ import '../../index.css'
 
 function Card({onClick, backgroundImage, projectTitle, liveDemoLink, gitHubLink, description}) {
     return (
-        <div className='card' onClick={onClick}>
+        <div className='card' onMouseEnter={onClick} onMouseLeave={onClick} onClick={onClick}>
             <div className='card-back'>
                 <h1 className='flex flex-wrap text-xs md:text-md lg:text-md xl:text-md 2xl:text-lg font-bold text-white gap-1 w-full'>
                 {description}
