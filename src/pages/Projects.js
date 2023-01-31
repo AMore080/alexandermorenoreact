@@ -66,11 +66,11 @@ class Projects extends React.Component{
                         gitHubLink={"https://github.com/AMore080/TechBlogger"}
                         />
                         <FlippableCard 
-                        backgroundImage={'https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80'}
-                        projectTitle={"Weather App"}
-                        description={"An application using the \"OpenWeather One Call\" API. Input a city and check your weather based on the input. Uses Bootstrap for UI"}
-                        liveDemoLink={"https://amore080.github.io/WeatherDash/"}
-                        gitHubLink={"https://github.com/AMore080/WeatherDash"}
+                        backgroundImage={'https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80'}
+                        projectTitle={"AdoptMe!"}
+                        description={"An adoption site meant for admins of a dog shelter. Uses NodeJS, Express, Handlebars, MySQL, and Sequelize."}
+                        liveDemoLink={"https://adoptmee.herokuapp.com/"}
+                        gitHubLink={"https://github.com/AMore080/AdoptMee"}
                         />
                         {/* <FlippableCard/>
                         <FlippableCard/>
