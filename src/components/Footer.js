@@ -8,7 +8,7 @@ import emailIcon from '../icons/emailIcon.svg'
 class Footer extends React.Component {
     render() {
         return (
-            <footer class="bg-greenSea shadow md:px-6 md:py-8">
+            <footer class="bg-greenSea shadow md:px-3 md:py-3">
                 <div class="flex justify-center">
                     <Grid.Container class="flex flex-wrap gap-5 mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
                         <Grid>

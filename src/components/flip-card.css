@@ -1,9 +1,9 @@
 .flippable-card-container {
-    min-height: 350px;
+    min-height: 250px;
     max-width: 550px;
     perspective: 1000px;
 
     @media screen {
-        max-width: 450px;
+        max-width: 550px;
     }
 }
