@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from 'framer-motion';
-import resume from '../Resume/resumeAlexM.pdf';
+import resume from '../Resume/AlexanderMorenoResume.pdf';
 
 class Header extends React.Component {
     render() {

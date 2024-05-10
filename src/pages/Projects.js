@@ -22,9 +22,9 @@ class Projects extends React.Component{
             }}
             >
                 <section class="bg-deepSeaBlack my-10 shadow-2xl flex-col mx-auto w-full md:w-3/4 rounded-lg">
-                <h2 class="lg:text-5xl p-2 font-bold mx-1 shadow-3xl z-20 text-silverGray flex-1">Projects</h2>
+                <h2 class="lg:text-5xl p-2 font-bold mx-1 shadow-3xl text-silverGray flex-1">Projects</h2>
                     <div class="flex-row bg-greenSea rounded-b-lg
-                    grid lg:grid-cols-3 grid-cols-1 grid-rows-6 md:grid-rows-2 gap-2 my-5 p-5">
+                    grid lg:grid-cols-3 grid-cols-1 grid-rows-6 md:grid-rows-2 gap-2 my-2 p-5">
                         <FlippableCard 
                         backgroundImage={'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'}
                         projectTitle={"CodeMovie!"}
