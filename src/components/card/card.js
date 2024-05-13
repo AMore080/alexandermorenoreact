@@ -7,7 +7,7 @@ function Card({onClick, backgroundImage, projectTitle, liveDemoLink, gitHubLink,
     return (
         <div className='card' onMouseEnter={onClick} onMouseLeave={onClick} >
             <div className='card-back'>
-                <h1 className='flex flex-wrap text-xs md:text-sm lg:text-sm xl:text-md 2xl:text-md font-bold text-white gap-1'>
+                <h1 className='flex-col flex-wrap text-xs md:text-sm lg:text-xs xl:text-md 2xl:text-md font-bold text-white gap-1'>
                 {description}
                 <br></br>
                 <br></br>
