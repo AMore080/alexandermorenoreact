@@ -26,7 +26,7 @@ class Contact extends React.Component{
                                 <div class="w-full md:w-1/2 mx-auto border-white border-white border-2 p-4">
                                     <label for="email" class="block text-2xl font-semibold text-silverGray">Email:</label>
                                     <input type="text" class="mt-2 block w-full" name="email" placeholder="example@mail.com" required/>
-                                    <input type="hidden" name="_next" value="https://alexmreact.herokuapp.com/thanks" />
+                                    <input type="hidden" name="_next" value="https://alexandermorenoreact.vercel.app/thanks" />
                                 </div>
                                 <div class="w-full md:w-1/2 mx-auto border-white border-white border-2 p-5">
                                     <label for="post" class="form-label text-2xl block font-semibold text-silverGray">Message:</label>
